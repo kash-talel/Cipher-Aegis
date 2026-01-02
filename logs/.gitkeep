@@ -1,0 +1,5 @@
+# Logs Directory
+
+This directory stores runtime log files.
+
+Log files are automatically created by the application and are excluded from version control.

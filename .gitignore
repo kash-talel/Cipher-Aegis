@@ -35,13 +35,16 @@ ENV/
 .DS_Store
 
 # Logs
-logs/
+logs/*
+!logs/.gitkeep
 *.log
 
 # Data
 data/pcaps/*.pcap
 data/models/*.pkl
 data/datasets/
+data/*.db
+data/*.db-journal
 *.pcapng
 
 # Jupyter Notebooks

@@ -7,10 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Planned
+- PCAP file replay for offline analysis
+- Multi-interface capture support
+- Email notification system
+
+## [1.0.1] - 2026-01-02
+
 ### Added
-- PCAP file replay for offline analysis (planned)
-- Multi-interface capture support (planned)
-- Email notification system (planned)
+- `logs/.gitkeep` file to preserve directory structure in version control
+- Database file exclusions to .gitignore (`*.db`, `*.db-journal`)
+- RELEASE_NOTES.md for tracking updates
+
+### Changed
+- Updated .gitignore to properly handle logs directory (exclude files, preserve structure)
+- Updated .gitignore to exclude SQLite database files from version control
+
+### Fixed
+- Logs directory now properly preserved in repository structure
+- Database runtime files no longer tracked by git
 
 ## [1.0.0] - 2026-01-02
 
