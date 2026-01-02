@@ -1,0 +1,21 @@
+# Cipher Aegis - Dependencies
+# Python 3.11+
+
+# Network packet capture
+scapy>=2.5.0
+
+# Machine Learning
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Dashboard & Visualization
+streamlit>=1.28.0
+plotly>=5.17.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Database (SQLite comes with Python)
+
+# Utilities
+python-dotenv>=1.0.0
